@@ -5,11 +5,7 @@
 
 class Asteroid : public SpaceBody {
 public:
-    Asteroid(Vector2 position, Vector2 velocity);
-
-private:
-    const int radius = 5;
-    const int color = 0xFFFFFF;
+    Asteroid(Vector2 position, Vector2 velocity) : SpaceBody{5, 0xFFFFFF, position, velocity} {}
 };
 
 #endif

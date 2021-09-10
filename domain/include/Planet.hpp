@@ -7,7 +7,7 @@
 
 class Planet : public SpaceBody {
 public:
-    Planet(std::string name, int radius, int color, Vector2 position, Vector2 velocity);
+    Planet(std::string name, int radius, int color, Vector2 position, Vector2 velocity) : SpaceBody{radius, color, position, velocity} {}
 
     void AddNeighborPlanet(Planet planet);
 

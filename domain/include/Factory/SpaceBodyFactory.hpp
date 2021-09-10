@@ -3,11 +3,9 @@
 
 #include "../SpaceBody.hpp"
 
-enum class SpaceBodyType{ Planet, Asteroid};
-
 class SpaceBodyFactory {
 public:
-    virtual SpaceBody* createSpaceBody(SpaceBodyType);
+    virtual SpaceBody* createSpaceBody();
 };
 
 #endif

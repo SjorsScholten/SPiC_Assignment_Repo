@@ -6,7 +6,7 @@
 
 class SpaceBody {
 public:
-    SpaceBody(int radius, int color, Vector2 position, Vector2 velocity);
+    SpaceBody(int radius, int color, Vector2 position, Vector2 velocity) : radius{radius}, color{color}, position{position}, velocity{velocity} {}
 
     void move();
 
