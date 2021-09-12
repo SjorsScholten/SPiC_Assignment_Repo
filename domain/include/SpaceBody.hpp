@@ -6,15 +6,12 @@
 
 class SpaceBody {
 public:
-    SpaceBody(int radius, int color, Vector2 position, Vector2 velocity) : radius{radius}, color{color}, position{position}, velocity{velocity} {}
+    int radius {};
+    int color {};
+    Vector2 position {};
+    Vector2 velocity {};
 
     void move();
-
-private:
-    int radius;
-    int color;
-    Vector2 position;
-    Vector2 velocity;
 };
 
 #endif

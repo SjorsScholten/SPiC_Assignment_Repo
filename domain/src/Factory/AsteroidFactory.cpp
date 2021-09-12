@@ -2,6 +2,6 @@
 #include "../../include/Asteroid.hpp"
 
 SpaceBody* AsteroidFactory::createSpaceBody(){
-    return new Asteroid(Vector2(), Vector2());
+    return new Asteroid{};
 }
 

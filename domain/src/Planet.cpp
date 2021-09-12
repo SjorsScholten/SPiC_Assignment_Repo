@@ -1,5 +1,5 @@
 #include "../include/Planet.hpp"
 
-void AddNeighborPlanet(Planet planet) {
+void Planet::AddNeighborPlanet(SpaceBody& planet) {
     //TODO: add neighbor
 }
